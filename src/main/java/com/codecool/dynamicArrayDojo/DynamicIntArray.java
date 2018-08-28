@@ -6,8 +6,5 @@ public class DynamicIntArray {
 
     public DynamicIntArray(int size) {
         content = new int[size];
-        for (int i = 0; i < size; i++) {
-            content[i] = i;
-        }
     }
 }
